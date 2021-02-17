@@ -1,0 +1,82 @@
+@include('./parts/header.html')
+
+<div class="column">
+  <div class="acc">
+    <div class="acc-head">
+      <div class="acc-avatar"></div>
+      <div class="acc-main">
+        <span class="acc-name">Vlad Vetrov</span>
+        <span class="acc-about">frontend developer</span>
+      </div>
+      <div class="acc-settings"><i class="fas fa-ellipsis-v"></i></div>
+    </div>
+    <div class="acc-stats">
+      <div class="acc-stats__item">
+        <span class="acc-stats__number">122</span>
+        <span class="acc-stats__name">Follower</span>
+      </div>
+      <div class="acc-stats__item">
+        <span class="acc-stats__number">1.2M</span>
+        <span class="acc-stats__name">Following</span>
+      </div>
+      <div class="acc-stats__item">
+        <span class="acc-stats__number">1000+</span>
+        <span class="acc-stats__name">Posts</span>
+      </div>
+    </div>
+  </div>
+  <div class="notification">
+    <div class="notification-head">
+      <i class="fas fa-bell"></i>
+      <h2>Notifications</h2>
+    </div>
+    <ul class="notification-list">
+      <li class="notification-item">
+        <div class="notification-avatar"></div>
+        <div class="notification-main">
+          <div class="notification-name">Anna Karenina</div>
+          <div class="notification-do like"><i class="fas fa-heart"></i><span>liked your photo</span></div>
+        </div>
+      </li>
+      <li class="notification-item">
+        <div class="notification-avatar"></div>
+        <div class="notification-main">
+          <div class="notification-name">Elena Shpak</div>
+          <div class="notification-do comment"><i class="fas fa-comment-dots"></i><span>commented</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="column">
+  <div class="status">
+    <ul class="status-list">
+      <li class="status-item add"><i class="fas fa-plus"></i></li>
+      <li class="status-item first"></li>
+      <li class="status-item second"></li>
+    </ul>
+  </div>
+</div>
+<div class="column">
+  <div class="player">
+    <div class="player-cover"></div>
+    <div class="player-main">
+      <div class="track-name">Sing for the moment</div>
+      <div class="track-author">Eminem</div>
+      <div class="track-length"></div>
+      <div class="track-time">
+        <span>5:10</span>
+        <span>-0:10</span>
+      </div>
+      <div class="track-btns">
+        <span><i class="fas fa-step-backward"></i></span>
+        <span><i class="fas fa-backward"></i></span>
+        <span class="track-play"><i class="fas fa-play"></i></span>
+        <span><i class="fas fa-forward"></i></span>
+        <span><i class="fas fa-step-forward"></i></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+@include('./parts/footer.html')

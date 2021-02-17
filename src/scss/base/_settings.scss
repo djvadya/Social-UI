@@ -1,0 +1,45 @@
+$breakpoints: (
+  "phone_s": 321px,
+  "phone_m": 376px,
+  "phone_l": 426px,
+  "phone_xl": 481px,
+  "tablet_xs": 561px,
+  "tablet_s": 641px,
+  "tablet": 769px,
+  "laptop_xs": 1025px,
+  "laptop_s": 1281px,
+  "laptop_m": 1441px,
+  "laptop_l": 1601px,
+  "laptop_xl": 1681px,
+  "laptop_xxl": 1921px,
+  "laptop_xxxl": 2561px,
+);
+
+:root {
+  --ff-main: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-main);
+}
+
+body {
+  width: 100%;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+}
