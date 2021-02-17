@@ -14,10 +14,10 @@ Thumbs.db
 node_modules/
 
 # Папка с собранными файлами проекта
-assets/app/
+app/
 
 # Gulp
-assets/gulpfile.js
-assets/package.json
-assets/.npmrc
+gulpfile.js
+package.json
+.npmrc
 
