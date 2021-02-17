@@ -13,9 +13,6 @@ Thumbs.db
 # Папка node
 node_modules/
 
-# Папка с собранными файлами проекта
-app/
-
 # Gulp
 gulpfile.js
 package.json
